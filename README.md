@@ -14,3 +14,15 @@ https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-mi
 
 - **lol_df_clean**=lol_df.drop(["blueTotalMinionsKilled","blueFirstBlood", "blueAssists","blueDeaths","blueHeralds","blueTotalMinionsKilled","blueDeaths","blueTowersDestroyed","redDeaths", "redAssists", "redHeralds","redTotalMinionsKilled","redFirstBlood","redTowersDestroyed"],axis=1)
 
+## Model Selection 
+It was used 
+-Naive Bayes, 
+-Logistic Regression
+-KNN
+
+The best result was from Naive Bayes.
+
+## Conclusion
+- Naive Bayes           **Accuracy**: 72.82 %
+- Logistic Regression   **Accuracy**: 72.26 %
+- KNN                   **Accuracy**: 71.30 %
