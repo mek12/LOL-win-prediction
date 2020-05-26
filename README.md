@@ -16,9 +16,9 @@ https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-mi
 
 ## Model Selection 
 It was used 
--Naive Bayes, 
--Logistic Regression
--KNN
+- Naive Bayes, 
+- Logistic Regression
+- KNN
 
 The best result was from Naive Bayes.
 
