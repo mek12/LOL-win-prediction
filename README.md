@@ -12,9 +12,22 @@ https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-mi
 ## Preprocessing
   After the examinations, it was observed that some features did not affect the winning condition.
   
-- **drop_cols** = ["gameId","blueWardsPlaced","blueWardsDestroyed", "blueEliteMonsters", "blueTotalExperience", "blueTotalJungleMinionsKilled", "blueCSPerMin", "blueGoldPerMin", "redWardsPlaced", "redWardsDestroyed", "redEliteMonsters", "redTotalExperience", "redTotalJungleMinionsKilled","redCSPerMin","redGoldPerMin"]
-
-- **lol_df_clean**=lol_df.drop(["blueTotalMinionsKilled","blueFirstBlood", "blueAssists","blueDeaths","blueHeralds","blueTotalMinionsKilled","blueDeaths","blueTowersDestroyed","redDeaths", "redAssists", "redHeralds","redTotalMinionsKilled","redFirstBlood","redTowersDestroyed"],axis=1)
+- **drop_cols** = [
+    "blueWardsPlaced","blueWardsDestroyed", 
+    "blueEliteMonsters", "blueTotalExperience", 
+    "blueTotalJungleMinionsKilled", "blueCSPerMin", 
+    "blueGoldPerMin", "redWardsPlaced", 
+    "redWardsDestroyed", "redEliteMonsters", 
+    "redTotalExperience", "redTotalJungleMinionsKilled",
+    "redCSPerMin","redGoldPerMin",
+    "blueTotalMinionsKilled","blueFirstBlood", 
+    "blueAssists","blueDeaths","blueHeralds",
+    "blueTotalMinionsKilled","blueDeaths",
+    "blueTowersDestroyed","redDeaths", 
+    "redAssists", "redHeralds",
+    "redTotalMinionsKilled","redFirstBlood",
+    "redTowersDestroyed"
+]
 
 ## Result
 It was used 
